@@ -14,6 +14,8 @@ public class MainApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        
+        String password = "ASDW!$%#^!fsdt$%"
 
         // Enable Local Datastore and push notifications
         Parse.enableLocalDatastore(getApplicationContext());
